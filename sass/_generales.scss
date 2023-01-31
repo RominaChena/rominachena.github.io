@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//** mixin **//
+
+@mixin fontColor (){
+    color: rgb(244, 243, 211);
+}
+
+@mixin borderRadius (){
+    border-radius: 15px;
+}
+
+
+body {
+    background-image: url("../img/fondohtml.webp");
+    background-size: cover;
+    @include fontColor;
+    font-family: 'Roboto', sans-serif;
+}
+
+//** mixin **//

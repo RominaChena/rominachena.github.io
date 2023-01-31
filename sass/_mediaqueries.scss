@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+    .containerturnos {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .containerturnos {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    div.foto1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main.main {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    main.main {
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+}

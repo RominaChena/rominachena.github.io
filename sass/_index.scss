@@ -1,0 +1,35 @@
+.bodyflex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.inicio {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include fontColor;
+    text-align: center;
+}
+
+.item {
+    margin: 10px;
+    @include fontColor;
+    font-family: 'roboto', sans-serif;
+}
+
+.boton {
+    background-color: rgba(4, 11, 54, 0.842);
+    @include fontColor;
+    text-decoration: none;
+    padding: 15px;
+    @include borderRadius ;
+    text-align: center;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}

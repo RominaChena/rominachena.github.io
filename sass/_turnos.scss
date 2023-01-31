@@ -1,0 +1,44 @@
+body.bodyturnos {
+    display: grid;
+
+    div.gap {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+
+        section.sectiongrid {
+            display: grid;
+        }
+    }
+
+    .pturnos {
+        display: grid;
+        color: rgba(26, 32, 73, 0.814);
+        background-color: rgb(244, 243, 211);
+        @include borderRadius;
+        margin: 20px;
+        text-align: center;
+        justify-self: center;
+        text-decoration: none;
+    }
+
+    .gridturnos {
+        display: grid;
+        justify-self: center;
+
+
+        .imggrid {
+            width: 150px;
+            height: 150px;
+            @include borderRadius;
+            transition: all 2s;
+
+            &:hover {
+                transform: scale(1.1);
+
+            }
+        }
+
+    }
+}
