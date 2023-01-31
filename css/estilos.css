@@ -11,6 +11,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.social {
+  width: 50px;
+  height: 50px;
+}
+
 .bodyflex {
   display: flex;
   flex-direction: column;
@@ -41,22 +46,7 @@ body {
   border-radius: 15px;
   text-align: center;
 }
-
-.social {
-  width: 50px;
-  height: 50px;
-}
-
 body.bodyturnos {
-  display: grid;
-}
-body.bodyturnos div.gap {
-  display: grid;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-}
-body.bodyturnos div.gap section.sectiongrid {
   display: grid;
 }
 body.bodyturnos .pturnos {
@@ -73,10 +63,10 @@ body.bodyturnos .gridturnos {
   display: grid;
   justify-self: center;
 }
-body.bodyturnos .gridturnos .imggrid {
-  width: 150px;
-  height: 150px;
+body.bodyturnos .gridturnos .img {
   border-radius: 15px;
+}
+body.bodyturnos .gridturnos .imggrid {
   transition: all 2s;
 }
 body.bodyturnos .gridturnos .imggrid:hover {
@@ -145,11 +135,45 @@ img.terapias {
   margin: 150;
 }
 
+.imggrid {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+main.maingrid {
+  display: grid;
+  gap: 10px;
+}
+
+div.gap {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
 .linkwsp {
   display: grid;
   justify-self: center;
   text-align: center;
   width: 140px;
+}
+
+section.sectiongrid {
+  display: grid;
+}
+
+div.gap {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.containerp {
+  display: grid;
+  align-items: center;
 }
 
 div.descubrinos {
