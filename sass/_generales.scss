@@ -15,12 +15,75 @@
     border-radius: 15px;
 }
 
-
 body {
     background-image: url("../img/fondohtml.webp");
     background-size: cover;
     @include fontColor;
     font-family: 'Roboto', sans-serif;
+}
+
+.violet {
+    background-color: rgba(26, 32, 73, 0.314);
+}
+
+.accordion-button{
+    background-color: rgba(26, 32, 73, 0.96) !important;
+    color:rgb(244, 243, 211) !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(244, 243, 211) !important;
+}
+
+img.terapias {
+    width: 100%;
+    height: 183px;
+}
+
+.foto {
+    width: 230px;
+    height: 400px;
+    padding: 5px;
+    @include borderRadius;
+}
+
+.video {
+    @include borderRadius;
+    margin: 150;
+}
+
+
+.linkwsp {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    width: 140px;
+}
+
+
+
+div.descubrinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(244, 243, 211);
+    text-align: left;
+    max-width: 400px;
+}
+
+div.containert {
+    display: grid;
+}
+
+footer{
+    background-color: rgba(26, 32, 73, 0.814);
+    width: 100%;
+    height: 160px;
+    line-height: 60px;
+    margin-top: 30px;
+    position: relative;
+    top:50px;
 }
 
 //** mixin **//
